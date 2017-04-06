@@ -1,0 +1,22 @@
+Directions:
+
+You are tasked to reproduce the the "barkly-project.pdf" in this folder onto a working index.html web page. All you will need is a text editor to write your code and a browser to test and render it. You do not need to make the form work or include any outgoing links - we expect the page to be mostly static. We're interested to see how you interpret a visual document into code. We've only included some basic design specs, so do your best to guess for any not-included specs. The images are found inside of the "img" folder and the Open Sans font (used for the headings) is found inside of "opensans_regular_macroman." Please follow all of the requirements listed below. Once you are finished, compress your file(s)/folder(s) into a single .zip file and email it to jim@barkly.us and chris@barkly.us. For us to see your work we will need to uncompress your zip file open up the index.html to see a working version in a web browser.
+
+Requirements:
+1) Upon reading these directions, send a quick email reply to confirm you received the project.
+2) Email your finished project (compressed into a zip file) before the 3-hour mark.
+3) Make the page responsive so that it renders well on mobile. How you collapse the elements into mobile views is up to you.
+4) Build a popup modal in javascript or jQuery (do not use any third-party plugins) that overlays on top of the page when you click the "Get Started" button. You don't have to put anything inside the modal. Just demonstrate that you can bring it up and and close it out.
+5) You are not required to add any additional interactions, but feel free to do so if you see fit.
+6) Add a comment just after the opening <body> tag with your name and about how long it took you to complete this project. You can round to the closest half hour.  Ex: <!-- Jane Smith: 2.5 hours  -->
+
+Design Specs:
+  Font(s): Open Sans (Included)
+  Colors:
+    Green (#36a300), 
+    Light Blue (#5f85ff),
+    Gray Text (#595959),
+    Light Gray Footer Background (#f3f3f3),
+    Medium Gray Footer Background (#c1c1c1)
+
+Note: We've never given this particular project before so if you find yourself crunched for time, then it's okay to skip requirement #1 so that it's not optimized for mobile screens.

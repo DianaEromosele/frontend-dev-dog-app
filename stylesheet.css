@@ -1,0 +1,235 @@
+.homepage-a-section {
+	background-image: url("img/blurred-cropped-header-background.jpg");
+	width: 45em;
+  height: 30em;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-position:center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  -o-background-size:cover;
+  display: block;
+  z-index: 0;
+  position: absolute;
+
+}
+
+.logo {
+	height: 12em;
+	width: 20em;
+	margin-left: auto;
+	margin-right: auto;
+  display: block;
+}
+
+.form-name-field {
+	padding: .2em .2em;
+}
+
+.form-email-field {
+	padding: .2em .2em;
+}
+
+.get-started-form {
+	text-align: center;
+}
+
+.get-started-button {
+	background-color: green;
+	color: white;
+	padding-left: .4em;
+	border: .3em solid red;
+}
+
+.header-A-text {
+  color: white;
+  font-size: 3.9vmin;
+  text-align: center;
+  width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  
+
+
+}
+.header-B-text {
+  color: white;
+  font-size: 2.9vmin;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.homepage-b-section {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	position: relative;
+	z-index: -3;
+	clear: both;
+	flex-wrap: wrap;
+}
+
+.b-section-left {
+	display: inline-block;
+	position; relative;
+	padding-left: 25px;
+	margin-left: 1.5em;
+	//border: .3em solid orange;
+}
+
+.b-section-right {
+	position: relative;
+	padding-top: 1.5em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.module {
+	display: none;
+	justify-content: center;
+	position: fixed;
+	z-index: 1;
+	right: 15px;
+	left: 15px;
+
+}
+
+.module-content {
+	color: #5f85ff;
+	background-color: white;
+	font-size: 3.8vmin;
+	padding: 2.5em .3em;
+	//border: .2em solid #5f85ff;
+	border-radius: 15px 50px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	display: inline;
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+.dog-gif {
+	border-radius: 15px 50px;
+	box-shadow: 10px 10px 5px #888888;
+	height: 140px;
+	width: 95px;
+	margin-top: 2.5em;
+	//border: .2em solid red;
+	//margin-left: 8em;
+	//padding-right: 4em;
+	background-color: white;
+
+}
+
+.close-module {
+	color: red;
+	width: .2em;
+	height: .2em;
+}
+
+.close-module:hover,
+.close-module:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.park-slope-image {
+	width: 18em;
+	height: 18em;
+}
+
+
+
+.blue-color {
+	color: #5f85ff;
+}
+
+.why-barkly {
+	font-size: 3.9vmin;
+	font-weight: 200;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.gray-color {
+	/*color: #595959;*/
+	/*color:;*/
+}
+
+.homepage-c-section {
+	background-color: #f3f3f3;
+	clear: both;
+}
+
+.download-app-text {
+	text-align: center;
+	color: #595959;
+	font-weight: bold;
+	padding-top: 2.2em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.mobile-images {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.app-store-image {
+	margin-right: .6em;
+}
+
+.homepage-d-section {
+	background-color: #c1c1c1;
+	font-size: 1.8vmin;
+	text-align: center;
+	/*height: 5em;*/
+	padding-top: .45em;
+	padding-bottom: .4em;
+
+
+a {
+	color: #595959;
+}
+
+.copyright-text {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*ul {
+	list-style-type: none;
+  padding:0;
+  margin:0;
+}*/
+
+/*li { 
+  padding-left: 1em; */
+  /*text-indent: -.7em;*/
+  /*list-style: none;*/
+  /*border: .3em solid red;*/
+/*}*/
+/*
+li:before {
+	content: "•";
+  color: red; 
+}
+*/
+
+
+

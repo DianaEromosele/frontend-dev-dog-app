@@ -3,7 +3,6 @@
 	width: 45em;
   height: 30em;
   background-repeat:no-repeat;
-  background-attachment:scroll;
   background-position:center center;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -53,10 +52,9 @@
   margin-bottom: 1em;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  
-
-
 }
+
+
 .header-B-text {
   color: white;
   font-size: 2.9vmin;
@@ -64,7 +62,6 @@
   display: block;
   font-weight: 500;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .homepage-b-section {
@@ -165,11 +162,6 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.gray-color {
-	/*color: #595959;*/
-	/*color:;*/
-}
-
 .homepage-c-section {
 	background-color: #f3f3f3;
 	clear: both;
@@ -188,21 +180,19 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 3em;
-	text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.app-store-image {
-	margin-right: .6em;
-}
+
 
 .homepage-d-section {
 	background-color: #c1c1c1;
-	font-size: 1.8vmin;
 	text-align: center;
-	/*height: 5em;*/
 	padding-top: .45em;
 	padding-bottom: .4em;
-
+}
 
 a {
 	color: #595959;
@@ -210,26 +200,45 @@ a {
 
 .copyright-text {
 	font-family: 'Open Sans', sans-serif;
+  font-size: 1.8vmin;
 }
 
-/*ul {
-	list-style-type: none;
-  padding:0;
-  margin:0;
-}*/
+@media only screen and (max-width: 600px)  {
 
-/*li { 
-  padding-left: 1em; */
-  /*text-indent: -.7em;*/
-  /*list-style: none;*/
-  /*border: .3em solid red;*/
-/*}*/
-/*
-li:before {
-	content: "•";
-  color: red; 
+  .copyright-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5vmin;
+  } 
+
+  .get-started-button {
+    background-color: green;
+    color: white;
+    padding-left: .4em;
+    margin-top: 4px;
+  }
+
+  .header-A-text {
+    color: white;
+    font-size: 5.2vmin;
+    text-align: center;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  .header-B-text {
+    color: white;
+    font-size: 4.2vmin;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+  }
+
 }
-*/
-
-
 
